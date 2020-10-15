@@ -1467,9 +1467,7 @@ span.users {
     margin-right: 3px;
     width: 30px;
     height: 30px;
-    border: 1px solid #00afd4;
     border-radius: 2px;
-    background: #00afd4;
     transition: 0.4s;
 }
 .footer-tags li a:hover,
