@@ -66,6 +66,15 @@ windows.on('scroll', function() {
 		panel_test.removeClass('active');
 		$(this).addClass('active');
 	});
+/*--------------------------
+ Parallax
+---------------------------- */	
+    var parallaxeffect = $(window);
+    parallaxeffect.stellar({
+        responsive: true,
+        positionProperty: 'position',
+        horizontalScrolling: false
+    });
 
 /*--------------------------
  MagnificPopup
@@ -73,7 +82,30 @@ windows.on('scroll', function() {
 	
     $('.video-play').magnificPopup({
         type: 'iframe'
-    });   
+    });
+    
+/*--------------------------
+     slider carousel
+---------------------------- */
+    var intro_carousel = $('.intro-carousel');
+    intro_carousel.owlCarousel({
+        loop:true,
+        nav:true,		
+        autoplay:false,
+        dots:false,
+        navText: ["<i class='ti-angle-left'></i>","<i class='ti-angle-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });    
 
 /*---------------------
  Testimonial carousel
@@ -85,6 +117,7 @@ windows.on('scroll', function() {
 		nav:false,
         margin:40,
 		dots:true,
+        center: true,
 		autoplay:false,
 		responsive:{
 			0:{
@@ -94,32 +127,10 @@ windows.on('scroll', function() {
 				items:2
 			},
 			1000:{
-				items:3
+				items:2
 			}
 		}
 	});
-/*--------------------------
-     Payments carousel
----------------------------- */
-	var payment_carousel = $('.payment-carousel');
-	payment_carousel.owlCarousel({
-        loop:true,
-        nav:false,		
-        autoplay:false,
-        margin:30,
-        dots:false,
-        responsive:{
-            0:{
-                items:2
-            },
-            700:{
-                items:4
-            },
-            1000:{
-                items:6
-            }
-        }
-    });
 
 /*----------------------------
     Contact form
