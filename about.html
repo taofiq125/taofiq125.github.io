@@ -1,399 +1,616 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>About| Trioxtrade</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AceTrade Group</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
 
-    <!-- all css here -->
+    <meta name="theme-color" content="#3F6EBF" />
+    <meta name="msapplication-navbutton-color" content="#3F6EBF" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3F6EBF" />
 
-    <!-- bootstrap v3.3.6 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.transitions.css">
-    <!-- Animate css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <!-- magnific css -->
-    <link rel="stylesheet" href="css/magnific.min.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicons
+		================================================== -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- CSS
+		================================================== -->
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+
+    <!-- Load google font
+		================================================== -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {
+                families: ['Open+Sans:300,400,500', 'Lato:900', 'Poppins:400', 'Catamaran:300,400,500,600,700']
+            }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <!-- Load other scripts
+		================================================== -->
+    <script type="text/javascript">
+        var _html = document.documentElement,
+            isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+        _html.className = _html.className.replace("no-js", "js");
+
+        isTouch ? _html.classList.add("touch") : _html.classList.add("no-touch");
+    </script>
+    <script type="text/javascript" src="js/device.min.js"></script>
 </head>
 
 <body>
+    <!-- start header -->
+    <header id="top-bar" class="top-bar--light">
+        <div id="top-bar__inner">
+            <a id="top-bar__logo" class="site-logo" href="index.html">
+                <img class="img-responsive" width="175" height="42" src="img/site_logo.png" alt="demo" />
+                <img class="img-responsive" width="175" height="42" src="img/site_logo_2.png" alt="demo" />
+            </a>
 
-    <!--[if lt IE 8]>
-			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+            <a id="top-bar__navigation-toggler" href="javascript:void(0);"><span></span></a>
 
-    <div id="preloader"></div>
-    <header class="header-one">
-        <!-- Start top bar -->
-        <div class="topbar-area fix hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="topbar-left">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-envelope"></i> info@trioxtrade4.com</a></li>
-                                <li><a href="#"><i class="fa fa-phone"></i> +909-654-9805</a></li>
-                            </ul>
-                        </div>
-                    </div>
+            <div id="top-bar__navigation-wrap">
+                <div>
+                    <nav id="top-bar__navigation" class="navigation" role="navigation">
+                        <ul>
+                            <li>
+                                <a href="index.html"><span>Home</span></a>
+                            </li>
+
+                            <li class="active">
+                                <a href="about.html"><span>About</span></a>
+                            </li>
+
+                            <li>
+                                <a href="faq.html"><span>FAQ’s</span></a>
+                            </li>
+
+                            <li>
+                                <a href="team.html"><span>Team</span></a>
+                            </li>
+
+                            <li>
+                                <a href="pricing_table.html"><span>Investment Plans</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <br class="hide--lg">
+
+                    <ul id="top-bar__subnavigation">
+                        <li><a class="custom-btn custom-btn--small custom-btn--style-3" href="sign_in.html">Login</a></li>
+                        <li><a href="sign_up.html">Sign up</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <!-- End top bar -->
-        <!-- header-area start -->
-        <div id="sticker" class="header-area header-area-2 hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="row">
-                            <!-- logo start -->
-                            <div class="col-md-3 col-sm-3">
-                                <div class="logo">
-                                    <!-- Brand -->
-                                    <a class="navbar-brand page-scroll white-logo" href="index.html">
-                                        <img src="img/logo/logo3.png" alt="">
-                                    </a>
-                                    <a class="navbar-brand page-scroll black-logo" href="index.html">
-                                        <img src="img/logo/logo.png" alt="">
-                                    </a>
-                                </div>
-                                <!-- logo end -->
-                            </div>
-                            <div class="col-md-9 col-sm-9">
-                                <div class="header-right-link">
-                                    <!-- search option end -->
-                                    <a class="s-menu" href="login.html">Login</a>
-                                </div>
-                                <!-- mainmenu start -->
-                                <nav class="navbar navbar-default">
-                                    <div class="collapse navbar-collapse" id="navbar-example">
-                                        <div class="main-menu">
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li><a class="pages" href="index.html">Home</a>
-                                                </li>
-                                                <li><a href="about.html">About us</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="review.html">Reviews</a></li>
-                                                <li><a href="contact.html">contacts</a></li>
-                                                <li><a href="signup.html">Register</a></li>
-                                            </ul>
+    </header>
+    <!-- end header -->
+
+    <!-- start intro -->
+    <div id="intro" class="jarallax" data-speed="0.5" style="background-image: url(img/intro_img/1.jpg);">
+        <div class="grid grid--container">
+            <div class="row row--xs-middle">
+                <div class="col col--lg-6 text--center">
+                    <h1 class="__title">About AceTrade Group</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end intro -->
+
+    <!-- start main -->
+    <main role="main">
+        <!-- start section -->
+        <section class="section">
+            <div class="grid grid--container">
+                <div class="section-heading section-heading--center  col-MB-60">
+
+                    <h2 class="__title">AceTrade Group is the Best Investment Plartoform</h2>
+                </div>
+
+                <div class="row row--xs-middle">
+                    <div class="col col--lg-10 col--xl-8">
+                        <p>
+                            AceTrade is a cryptocurrency investment company founded in 2017 with office in London, UK. The company comibines several successful bussiness directions, from the Multi-Currency market to trading activity on the stock exchange, cryptocurrency market and investments in promising Fintech start-ups. How does it work and where does big money comes from? What is forex? the foreign exchange market is the 'place' where currencies are traded.
+                        </p>
+
+                        <p>
+                            The growth of the cryptocureencies has been spurred by the mass adoption of bitcoin as a currency and development of electronic trading plartform networks and the increase in globalization. Currencies are important to most people around the world because currencies need to be exchanged in order to conduct foreign trade and bussiness. The need to exchange currencies is the the main reason why forex market is the largest financial in the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+
+        <!-- start section -->
+        <section class="section section--light-blue-bg section--custom-13">
+            <style type="text/css">
+                .section--custom-13 {
+                    background-image: url(img/info@acetradegroup.com.png);
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                }
+            </style>
+
+            <div class="grid grid--container">
+                <div class="row row--md-middle">
+                    <div class="col col--lg-10 col--xl-8">
+                        <!-- start feature -->
+                        <div class="facts facts--dark-color  text--center text--sm-left">
+                            <div class="__inner">
+                                <div class="row row--md-between">
+                                    <div class="col col--sm-6 col--md-3">
+                                        <div class="__item">
+                                            <span class="num js-count" data-from="0" data-to="20" data-decimals="1" data-before="$" data-after="M"></span><br>
+                                            The amount of finance in the system
                                         </div>
                                     </div>
-                                </nav>
-                                <!-- mainmenu end -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header-area end -->
-        <!-- mobile-menu-area start -->
-        <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mobile-menu">
-                            <div class="logo">
-                                <a href="index-2.html"><img src="img/logo/logo.png" alt="" /></a>
-                            </div>
-                            <nav id="dropdown">
-                                <ul>
-                                    <li><a class="pages" href="index.html">Home</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="review.html">Reviews</a></li>
-                                    <li><a href="contact.html">contacts</a></li>
-                                    <li><a href="signup.html">Register</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- mobile-menu-area end -->
-    </header>
-    <!-- header end -->
-    <!-- Start breadcumb Area -->
-    <div class="page-area">
-        <div class="breadcumb-overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="breadcrumb text-center">
-                        <div class="section-headline white-headline">
-                            <h3>About us</h3>
-                        </div>
-                        <ul class="breadcrumb-bg">
-                            <li class="home-bread">Home</li>
-                            <li>About us</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End breadcumb Area -->
-    <!-- about-area start -->
-    <div class="about-area page-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="about-image">
-                        <img src="img/about/ab.jpg" alt="">
-                    </div>
-                </div>
-                <!-- column end -->
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="about-content">
-                        <h3>The most prestigious Investments company in worldwide.</h3>
-                        <p>TRIOXTRADE IS A CRYPTOCURRENCY INVESTMENT COMPANY FOUNDED IN 2017 WITH OFFICE IN LONDON, UK.
 
-                            THE COMPANY COMBINES SEVERAL SUCCESSFUL PROFITABLE BUSINESS DIRECTIONS, FROM THE MULTI-CURRENCY TRADING IN THE FOREX MARKET TO TRADING ACTIVITY ON THE STOCK EXCHANGE, CRYPTOCURRENCY MARKET AND INVESTMENTS IN PROMISING FINTECH START-UPS.
+                                    <div class="col col--sm-6 col--md-3">
+                                        <div class="__item">
+                                            <span class="num js-count" data-from="0" data-to="25" data-decimals="3"></span><br>
+                                            Active users
+                                        </div>
+                                    </div>
 
-                            HOW DOES IT WORK AND WHERE DOES BIG MONEY COME FROM? WHAT IS FOREX? THE FOREIGN EXCHANGE MARKET IS THE "PLACE" WHERE CURRENCIES ARE TRADED. THE GROWTH OF THE FOREX MARKET HAS BEEN SPURRED BY THE DEVELOPMENT OF ELECTRONIC TRADING NETWORKS AND THE INCREASE IN GLOBALIZATION.
-
-                            CURRENCIES ARE IMPORTANT TO MOST PEOPLE AROUND THE WORLD BECAUSE CURRENCIES NEED TO BE EXCHANGED IN ORDER TO CONDUCT FOREIGN TRADE AND BUSINESS.
-
-                            THE NEED TO EXCHANGE CURRENCIES IS THE MAIN REASON WHY THE FOREX MARKET IS THE LARGEST FINANCIAL MARKET IN THE WORLD.</p>
-                        <div class="about-details">
-                            <ul class="marker-list">
-                                <li>Your profit is our priority</li>
-                                <li>Our team of developers and engineers protects the plartform from malicious attacks</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- column end -->
-            </div>
-        </div>
-    </div>
-    <!-- about-area end -->
-    <!-- Start About Area -->
-    <div class="about-feature-area bg-color area-padding-2">
-        <div class="container">
-            <!-- end Row -->
-            <div class="row">
-                <div class="about-mission">
-                    <!-- Start column -->
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="mission-about">
-                            <div class="mission-icon">
-                                <i class="flaticon-004-bar-chart"></i>
-                            </div>
-                            <div class="mission-text">
-                                <h4>Our Mission</h4>
-                                <p>At Trioxtrade, We aim to maximize profit for our investors on a consistent basis.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start column -->
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="mission-about">
-                            <div class="mission-icon">
-                                <i class="flaticon-031-release"></i>
-                            </div>
-                            <div class="mission-text">
-                                <h4>Our Vision</h4>
-                                <p>We are going to redefine the distribution of wealth among different social classes.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Start column -->
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="mission-about">
-                            <div class="mission-icon">
-                                <i class="flaticon-023-management"></i>
-                            </div>
-                            <div class="mission-text">
-                                <h4>Our Experience</h4>
-                                <p>Our team of qualified experts, professional bankers, traders and analysts with more than ten years of extensive practical experiences.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End column -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About Area -->
-    <!-- Start Banner Area -->
-    <div class="banner-area area-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="banner-all area-80 text-center">
-                        <div class="banner-content">
-                            <h3>Our worldwide integration partner work with long time relationship </h3>
-                            <a class="banner-btn" href="signup.html">Open new account</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Banner Area -->
-    <!-- Start Footer Area -->
-    <footer class="footer1">
-        <div class="footer-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-12">
-                        <div class="footer-content logo-footer">
-                            <div class="footer-head">
-                                <div class="footer-logo">
-                                    <a class="footer-black-logo" href="#"><img src="img/logo/logo.png" alt=""></a>
+                                    <div class="col col--sm-6 col--md-3">
+                                        <div class="__item">
+                                            <span class="num js-count" data-from="0" data-to="32"></span><br>
+                                            Supported countries
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>
-                                    Feel the Magic of Wealth
-                                </p>
                             </div>
                         </div>
-                    </div>
-                    <!-- end single footer -->
-                    <div class="col-md-4 col-sm-3 col-xs-12">
-                        <div class="footer-content">
-                            <div class="footer-head">
-                                <h4>Services Link</h4>
-                                <ul class="footer-list">
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="faq.html">Faq </a></li>
-                                    <li><a href="review.html">Reviews</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="License.pdf">Certificate of Incorporation</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end single footer -->
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="footer-content last-content">
-                            <div class="footer-head">
-                                <h4>Information</h4>
-                                <div class="footer-contacts">
-                                    <p><span>Tel :</span> +0890-564-5644</p>
-                                    <p><span>Email :</span> info@trioxtrade4.com</p>
-                                    <p><span>Location :</span>42 York Road, West London, United Kingdom,W60 9CD</p>
-                                </div>
-                                <div class="footer-icons">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <img src="img/icon/wu.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="img/icon/mg.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="img/icon/eth.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="img/icon/cashapp.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="img/icon/bch.png" alt="">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <br>
-                                <div id="google_translate_element"></div>
-                                <script>
-                                    function googleTranslateElementInit() {
-                                        new google.translate.TranslateElement({
-                                                pageLanguage: 'en'
-                                            },
-                                            'google_translate_element'
-                                        );
-                                    }
-
-                                </script>
-                                <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                            </div>
-                        </div>
+                        <!-- end feature -->
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-area-bottom">
-            <div class="container">
+        </section>
+        <!-- end section -->
+
+        <!-- start section -->
+        <section class="section">
+            <div class="grid grid--container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="copyright">
+                    <div class="col col--md-6">
+                        <div data-aos="zoom-in">
+                            <img class="img-responsive lazy" src="img/blank.gif" data-src="img/img_5.png" alt="demo" />
+                        </div>
+                    </div>
+
+                    <div class="col hide--md col-MB-40"></div>
+
+                    <div class="col col--md-6">
+                        <div data-aos="fade-left">
+                            <div class="section-heading  col-MB-30">
+                                <h5 class="__subtitle">Benefits</h5>
+
+                                <h2 class="__title">AceTrade Group Multilanguage Service for you</h2>
+                            </div>
+
+                            <p class="col-MB-35">
+                                We trive to make it possible for our investors around the world to navigate our site without hassle. Our plartform support basically most of the language in the world. If your regions language is not listed, kindly conatct our support team and we will get back to you as soon as possible.
+                            </p>
                             <p>
-                                Copyright © 2020
-                                <a href="#">Trioxtrade</a> All Rights Reserved
+                                <a class="custom-btn custom-btn--medium custom-btn--style-1" href="#google_translate_element">Discover</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- end section -->
+
+        <!-- start section -->
+        <section class="section section--light-blue-bg section--custom-14">
+            <style type="text/css">
+                .section--custom-14 {
+                    background-image: url(img/sectoin_bg_4.png);
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                }
+            </style>
+
+            <div class="grid grid--container">
+                <div class="section-heading section-heading--center  col-MB-60">
+                    <h5 class="__subtitle">Our brain</h5>
+
+                    <h2 class="__title">Awesome Team</h2>
+                </div>
+
+                <!-- start team -->
+                <div class="team team--style-2 team--dark-color">
+                    <div class="__inner">
+                        <div class="row">
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="50">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/1.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">David Drake</h5>
+                                        <span class="__subtitle">UI Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="100">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/2.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Allan Bellor</h5>
+                                        <span class="__subtitle">Analitics</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="150">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Joe Doe</h5>
+                                        <span class="__subtitle">Tech Operation</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="200">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/4.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Sam Tolder</h5>
+                                        <span class="__subtitle">CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="250">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/5.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Henry Polar</h5>
+                                        <span class="__subtitle">SEO Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/6.png" width="110" height="110" alt="demo" />
+
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Sandra Pen</h5>
+                                        <span class="__subtitle">Humar Resources</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="350">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/7.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Den Miller</h5>
+                                        <span class="__subtitle">Economist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="400">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/8.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Brawn Lee</h5>
+                                        <span class="__subtitle">Journalist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="450">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/9.png" width="110" height="110" alt="demo" />
+
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Linda Gampton</h5>
+                                        <span class="__subtitle">UX Team Lead</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="500">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/10.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">John Smith</h5>
+                                        <span class="__subtitle">General Director</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="550">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/11.png" width="110" height="110" alt="demo" />
+
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Sam Oldrich</h5>
+                                        <span class="__subtitle">Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--xs-6 col--sm-4 col--md-3 col--lg-2">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-offset="50" data-aos-duration="300" data-aos-delay="600">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/12.png" width="110" height="110" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Denis Portlen</h5>
+                                        <span class="__subtitle">Programmer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                        </div>
+                    </div>
+                </div>
+                <!-- end team -->
+            </div>
+        </section>
+        <!-- end section -->
+
+        <!-- start section -->
+        <section class="section section--base-bg">
+            <div class="grid grid--container">
+                <!-- start testimonial slider -->
+                <div class="row">
+                    <div class="col col--md-2  hide show--md">
+                        <i class="testimonial-ico">“</i>
+                    </div>
+
+                    <div class="col col--md-10">
+                        <!-- start testimonial -->
+                        <div class="testimonial testimonial--slider" data-slick='{"autoplay": true, "arrows": false, "dots": true, "speed": 1000}'>
+                            <!-- start item -->
+                            <div class="__item">
+                                <div class="__text">
+                                    <p>
+                                        I'm so glad I was recommended to this plartform and you never cease to amaze me, Thanks to AceTrade Team.
+                                    </p>
+                                </div>
+
+                                <div class="__author">
+                                    <span class="__author-img"><img class="img-responsive circled lazy loaded" src="img/ava.png" alt="demo" data-was-processed="true"></span>
+                                    <h5 class="__author--name">Angel Lima</h5>
+                                    <span class="__author--position">Investor</span>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="__item">
+                                <div class="__text">
+                                    <p>
+                                        Thanks to AceTrade, you guys are the best. Once again Thank you for changing my financial life
+                                    </p>
+                                </div>
+
+                                <div class="__author">
+                                    <span class="__author-img"><img class="img-responsive circled lazy loaded" src="img/ava.png" alt="demo" data-was-processed="true"></span>
+                                    <h5 class="__author--name">Arthur Doil</h5>
+                                    <span class="__author--position">Investor</span>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="__item">
+                                <div class="__text">
+                                    <p>
+                                        I can confidently say no investment plartform beats AceTrade, I've used many times and i would recommend
+                                    </p>
+                                </div>
+
+                                <div class="__author">
+                                    <span class="__author-img"><img class="img-responsive circled lazy loaded" src="img/ava.png" alt="demo" data-was-processed="true"></span>
+                                    <h5 class="__author--name">Timeo Poll</h5>
+                                    <span class="__author--position">Investor</span>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="__item">
+                                <div class="__text">
+                                    <p>
+                                        I'm so glad I was recommended to this plartform and you never cease to amaze me, Thanks to AceTrade Team
+                                    </p>
+                                </div>
+
+                                <div class="__author">
+                                    <span class="__author-img"><img class="img-responsive circled lazy loaded" src="img/ava.png" alt="demo" data-was-processed="true"></span>
+                                    <h5 class="__author--name">Gabriel Hank</h5>
+                                    <span class="__author--position">Investor</span>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="__item">
+                                <div class="__text">
+                                    <p>
+                                        I'm so glad I was recommended to this plartform and you never cease to amaze me, Thanks to AceTrade Team.
+                                    </p>
+                                </div>
+
+                                <div class="__author">
+                                    <span class="__author-img"><img class="img-responsive circled lazy loaded" src="img/ava.png" alt="demo" data-was-processed="true"></span>
+                                    <h5 class="__author--name">Hamilton</h5>
+                                    <span class="__author--position">Investor</span>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                        </div>
+                        <!-- end testimonial -->
+                    </div>
+                </div>
+                <!-- end testimonial slider -->
+            </div>
+        </section>
+        <!-- end section -->
+
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer id="footer" class="text--center text--lg-left">
+        <div class="grid grid--container">
+            <div class="row row--xs-middle">
+                <div class="col col--sm-10 col--md-8 col--lg-4">
+                    <div class="__item">
+                        <a class="site-logo" href="index.html">
+                            <img class="img-responsive lazy" width="175" height="42" src="img/blank.gif" data-src="img/site_logo.png" alt="demo" />
+                        </a>
+
+                        <p class="__text">
+                            The reputable standard and AceTrade Group Crypto Currency Investments system with proven strategies for yield.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col col--sm-10 col--md-8 col--lg-3 col--xl-offset-1">
+                    <div class="__item">
+                        <h4 class="__title">Main menu</h4>
+
+                        <nav id="footer__navigation" class="navigation">
+                            <div class="row row--xs-middle">
+                                <div class="col col--xs-auto col--lg-6">
+                                    <ul class="__menu">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col--xs-auto col--lg-6">
+                                    <ul class="__menu">
+                                        <li><a href="team.html">Team</a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col col--sm-10 col--md-8 col--lg-5 col--xl-4">
+                    <div class="__item">
+                        <h4 class="__title">Payment Options</h4>
+
+                        <div class="__item">
+                            <img src="img/Payement.png" alt="">
+                        </div>
+                        <div id="google_translate_element"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row--xs-middle row--lg-between">
+                <div class="col col--sm-10 col--md-8 col--lg-4">
+                </div>
+
+                <div class="col col--sm-10 col--md-8 col--lg-6  text--lg-right">
+                    <div class="__item">
+                        <span class="__copy">© 2020, AceTrade Group | <a href="#">Privacy Policy</a></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    <!-- End Footer area -->
+    <!-- end footer -->
 
-    <!-- all js here -->
+    <div id="btn-to-top-wrap">
+        <a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+    </div>
 
-    <!-- jquery latest version -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- owl.carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- stellar js -->
-    <script src="js/jquery.stellar.min.js"></script>
-    <!-- Chart JS -->
-    <script src="js/Chart.bundle.min.js"></script>
-    <script src="js/Chart.js"></script>
-    <!-- magnific js -->
-    <script src="js/magnific.min.js"></script>
-    <!-- wow js -->
-    <script src="js/wow.min.js"></script>
-    <!-- meanmenu js -->
-    <script src="js/jquery.meanmenu.js"></script>
-    <!-- Form validator js -->
-    <script src="js/form-validator.min.js"></script>
-    <!-- plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- main js -->
-    <script src="js/main.js"></script>
-</body>
 
-<!-- Mirrored from rockstheme.com/rocks/Trioxtrade-live/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 08:44:30 GMT -->
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')
+    </script>
+    <script src="js/translate.js"></script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
-</html>
+</body></html>

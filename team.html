@@ -1,442 +1,488 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
-	
+
 <head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Team| Trioxtrade</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AceTrade Group</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-		<!-- favicon -->		
-		<link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
 
-		<!-- all css here -->
+    <meta name="theme-color" content="#3F6EBF" />
+    <meta name="msapplication-navbutton-color" content="#3F6EBF" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3F6EBF" />
 
-		<!-- bootstrap v3.3.6 css -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- owl.carousel css -->
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/owl.transitions.css">
-       <!-- Animate css -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- meanmenu css -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
-		<!-- font-awesome css -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/themify-icons.css">
-		<link rel="stylesheet" href="css/flaticon.css">
-		<!-- magnific css -->
-        <link rel="stylesheet" href="css/magnific.min.css">
-		<!-- style css -->
-		<link rel="stylesheet" href="style.css">
-		<!-- responsive css -->
-		<link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicons
+		================================================== -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
-		<!-- modernizr css -->
-		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-	</head>
-		<body>
+    <!-- CSS
+		================================================== -->
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
 
-		<!--[if lt IE 8]>
-			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
+    <!-- Load google font
+		================================================== -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: {
+                families: ['Open+Sans:300,400,500', 'Lato:900', 'Poppins:400', 'Catamaran:300,400,500,600,700']
+            }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
 
-        <div id="preloader"></div>
-        <header class="header-one">
-            <!-- Start top bar -->
-            <div class="topbar-area fix hidden-xs">
-                <div class="container">
-                    <div class="row">
-                       <div class="col-md-6 col-sm-6">
-                           <div class="topbar-left">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> info@trioxtrade4.com</a></li>
-                                    <li><a href="#"><i class="fa fa-phone"></i> +909-654-9805</a></li>
-                                </ul>
-							</div>
+    <!-- Load other scripts
+		================================================== -->
+    <script type="text/javascript">
+        var _html = document.documentElement,
+            isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+        _html.className = _html.className.replace("no-js", "js");
+
+        isTouch ? _html.classList.add("touch") : _html.classList.add("no-touch");
+    </script>
+    <script type="text/javascript" src="js/device.min.js"></script>
+</head>
+
+<body>
+    <!-- start header -->
+    <header id="top-bar" class="top-bar--light">
+        <div id="top-bar__inner">
+            <a id="top-bar__logo" class="site-logo" href="index.html">
+                <img class="img-responsive" width="175" height="42" src="img/site_logo.png" alt="demo" />
+                <img class="img-responsive" width="175" height="42" src="img/site_logo_2.png" alt="demo" />
+            </a>
+
+            <a id="top-bar__navigation-toggler" href="javascript:void(0);"><span></span></a>
+
+            <div id="top-bar__navigation-wrap">
+                <div>
+                    <nav id="top-bar__navigation" class="navigation" role="navigation">
+                        <ul>
+                            <li>
+                                <a href="index.html"><span>Home</span></a>
+                            </li>
+
+                            <li>
+                                <a href="about.html"><span>About</span></a>
+                            </li>
+
+                            <li>
+                                <a href="faq.html"><span>FAQ’s</span></a>
+                            </li>
+
+                            <li class="active">
+                                <a href="team.html"><span>Team</span></a>
+                            </li>
+
+                            <li>
+                                <a href="pricing_table.html"><span>Investment Plans</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <br class="hide--lg">
+
+                    <ul id="top-bar__subnavigation">
+                        <li><a class="custom-btn custom-btn--small custom-btn--style-3" href="sign_in.html">Login</a></li>
+                        <li><a href="sign_up.html">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start intro -->
+    <div id="intro" class="jarallax" data-speed="0.5" style="background-image: url(img/intro_img/1.jpg);">
+        <div class="grid grid--container">
+            <div class="row row--xs-middle">
+                <div class="col col--lg-6 text--center">
+                    <h1 class="__title">AceTrade Group Team</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end intro -->
+
+    <!-- start main -->
+    <main role="main">
+
+        <!-- start section -->
+        <section class="section">
+            <div class="grid grid--container">
+                <div class="section-heading section-heading--center  col-MB-60">
+                    <h5 class="__subtitle">Foundation</h5>
+
+                    <h2 class="__title">Team Members</h2>
+                </div>
+
+                <!-- start team -->
+                <div class="team team--style-1">
+                    <div class="__inner">
+                        <div class="row">
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="100">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/1_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">David Drake</h5>
+
+                                        <p>
+                                            David Drake, through his family office LDJ Capital, has acted as GP & LP investors with his partners in fund-of-funds, realty funds,
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="200">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/2_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Ann Balock</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
+
+                            <!-- start item -->
+                            <div class="col col--sm-6 col--lg-4">
+                                <div class="__item  text--center" data-aos="zoom-in" data-aos-delay="300">
+                                    <figure class="__image  center-block circled">
+                                        <img class="img-responsive circled lazy" src="img/blank.gif" data-src="img/team_img/3_1_b.png" width="230" height="230" alt="demo" />
+                                    </figure>
+
+                                    <div class="__content">
+                                        <h5 class="__title">Vladimir Nikitin</h5>
+
+                                        <p>
+                                            Business development, Skolkovo Foundation. Interaction with public authorities and building partnerships with technology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end item -->
                         </div>
                     </div>
                 </div>
+                <!-- end team -->
             </div>
-            <!-- End top bar -->
-            <!-- header-area start -->
-            <div id="sticker" class="header-area header-area-2 hidden-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="row">
-                                <!-- logo start -->
-                                <div class="col-md-3 col-sm-3">
-                                    <div class="logo">
-                                        <!-- Brand -->
-                                        <a class="navbar-brand page-scroll white-logo" href="index.html">
-                                            <img src="img/logo/logo3.png" alt="">
-                                        </a>
-                                        <a class="navbar-brand page-scroll black-logo" href="index.html">
-                                            <img src="img/logo/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- logo end -->
-                                </div>
-                                <div class="col-md-9 col-sm-9">
-                                    <div class="header-right-link">
-                                        <!-- search option end -->
-                                        <a class="s-menu" href="login.html">Login</a>
-                                    </div>
-                                    <!-- mainmenu start -->
-                                    <nav class="navbar navbar-default">
-                                        <div class="collapse navbar-collapse" id="navbar-example">
-                                            <div class="main-menu">
-                                                <ul class="nav navbar-nav navbar-right">
-                                                    <li><a class="pages" href="index.html">Home</a>
-                                                    </li>
-                                                    <li><a href="about.html">About us</a></li>
-                                                    <li><a href="faq.html">FAQ</a></li>
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="review.html">Reviews</a></li>
-                                                    <li><a href="contact.html">contacts</a></li>
-                                                    <li><a href="signup.html">Register</a></li>
-                                                </ul>
-                                            </div>
+        </section>
+        <!-- end section -->
+
+        <!-- start section -->
+        <section class="section jarallax" data-speed="0.5">
+            <img class="jarallax-img" src="img/bg_.jpg" alt="demo" />
+
+            <div class="pattern" style="background-color: rgba(0, 0, 0, 0.53);"></div>
+
+            <div class="grid grid--container">
+                <div class="section-heading section-heading--center section-heading--white  col-MB-45">
+                    <h2 class="__title">We can Help You</h2>
+                </div>
+
+                <div class="row row--xs-middle">
+                    <div class="col col--xs-10">
+                        <!-- start company contacts -->
+                        <div class="company-contacts  text--center">
+                            <div class="__inner">
+                                <div class="row row--xs-between">
+                                    <!-- start item -->
+                                    <div class="col col--lg-4 col--xl-3">
+                                        <div class="__item">
+                                            <p>1010 Avenue of the Moon New York, NY 10018 US.</p>
                                         </div>
-                                    </nav>
-                                    <!-- mainmenu end -->
+                                    </div>
+                                    <!-- end item -->
+
+                                    <!-- start item -->
+                                    <div class="col col--sm-6 col--lg-4 col--xl-3">
+                                        <div class="__item">
+                                            <p>Call Us: <a href="tel:+70000000000">(066) 052 39876</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- end item -->
+
+                                    <!-- start item -->
+                                    <div class="col col--sm-6 col--lg-4 col--xl-3">
+                                        <div class="__item">
+                                            <p>Email: <a href="mailto:info@acetradegroup.com">info@acetradegroup.com</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- end item -->
                                 </div>
                             </div>
                         </div>
+                        <!-- end company contacts -->
                     </div>
                 </div>
             </div>
-            <!-- header-area end -->
-            <!-- mobile-menu-area start -->
-            <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mobile-menu">
-                                <div class="logo">
-                                    <a href="index-2.html"><img src="img/logo/logo.png" alt="" /></a>
-                                </div>
-                                <nav id="dropdown">
-                                    <ul>
-                                        <li><a class="pages" href="index.html">Home</a></li>
+        </section>
+        <!-- end section -->
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer id="footer" class="text--center text--lg-left">
+        <div class="grid grid--container">
+            <div class="row row--xs-middle">
+                <div class="col col--sm-10 col--md-8 col--lg-4">
+                    <div class="__item">
+                        <a class="site-logo" href="index.html">
+                            <img class="img-responsive lazy" width="175" height="42" src="img/blank.gif" data-src="img/site_logo.png" alt="demo" />
+                        </a>
+
+                        <p class="__text">
+                            The reputable standard and AceTrade Group Crypto Currency Investments system with proven strategies for yield.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col col--sm-10 col--md-8 col--lg-3 col--xl-offset-1">
+                    <div class="__item">
+                        <h4 class="__title">Main menu</h4>
+
+                        <nav id="footer__navigation" class="navigation">
+                            <div class="row row--xs-middle">
+                                <div class="col col--xs-auto col--lg-6">
+                                    <ul class="__menu">
+                                        <li><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About us</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col--xs-auto col--lg-6">
+                                    <ul class="__menu">
                                         <li><a href="team.html">Team</a></li>
-                                        <li><a href="review.html">Reviews</a></li>
-                                        <li><a href="contact.html">contacts</a></li>
-                                        <li><a href="signup.html">Register</a></li>
-                                        <li><a href="login.html">Login</a></li>
                                     </ul>
-                                </nav>
-                            </div>					
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- mobile-menu-area end -->		
-        </header>
-        <!-- header end -->
-        <!-- Start breadcumb Area -->
-        <div class="page-area">
-            <div class="breadcumb-overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="breadcrumb text-center">
-                            <div class="section-headline white-headline">
-                                <h3>Expert team </h3>
-                            </div>
-                            <ul class="breadcrumb-bg">
-                                <li class="home-bread">Home</li>
-                                <li>Our team</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End breadcumb Area -->
-         <!-- Team area start -->	
-        <div class="team-page-area page-padding-2">
-            <div class="container">
-               <div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="section-headline text-center">
-                            <h3>Our Team</h3>
-                            <p>Service is our mantra. Never being satisfied is what drives us</p>
-						</div>
-					</div>
-				</div>
-                <div class="row">
-                    <div class="team-member text-center">
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t1.png" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Scott Mcpherson</a></h5>
-                                    <p>Compnay Administrator</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">John M. Krambeer</a></h5>
-                                    <p>Founder &amp; Partner</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t3.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Kara S. Boccella</a></h5>
-                                    <p>Director of Finance</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t4.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Natashia Rogers</a></h5>
-                                    <p>Associate Director</p>
-                                </div>
-                            </div>
-                        </div>
-                                                <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t5.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Gabriel hank</a></h5>
-                                    <p>Senior Accountant</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t6.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Arnold loil</a></h5>
-                                    <p>Chief Market Officer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t7.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Amanda Courtney</a></h5>
-                                    <p>Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/t8.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Edward T. McGlasson</a></h5>
-                                    <p>Cyber Security</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                    </div>
-                </div>
-            </div>
-        </div>
-<!--        team of expert traders-->
-        <div class="about-area page-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-sm-12 col-xs-12">
-                        <img src="img/team/traders.jpg" alt="">
-                    </div>
-                    <!-- column end -->
-                    <div class="col-md-5 col-sm-12 col-xs-12">
-                        <div class="about-content">
-							<h3>Team of Expert Traders</h3>
-                            <p>We are run by a team of trading experts who generate profits by buying and selling currencies, stocks, options and commodities on the foreign exchange market. We employ a variety of trading techniques to achieve the set goals for the client. We consists of a team of financial market professionals assembled specifically in order to provide the best possible trading conditions to its customers. Our specialists have been involved in the development of technical specification for designing an up-to-date platform that is suitable for both beginners and experienced traders</p>
-                        </div>
-                    </div>
-                    <!-- column end -->
-                </div>
-            </div>
-        </div>
-        <!-- team area end -->
-        <!-- Start Footer Area -->
-        <footer class="footer1">
-            <div class="footer-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-5 col-xs-12">
-                            <div class="footer-content logo-footer">
-                                <div class="footer-head">
-                                    <div class="footer-logo">
-                                    	<a class="footer-black-logo" href="#"><img src="img/logo/logo.png" alt=""></a>
-                                    </div>
-                                    <p>
-                                        Feel the Magic of Wealth
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end single footer -->
-                        <div class="col-md-4 col-sm-3 col-xs-12">
-                            <div class="footer-content">
-                                <div class="footer-head">
-                                    <h4>Services Link</h4>
-                                    <ul class="footer-list">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="faq.html">Faq </a></li>
-                                        <li><a href="review.html">Reviews</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="License.pdf">Certificate of Incorporation</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end single footer -->
-                        <div class="col-md-3 col-sm-4 col-xs-12">
-                            <div class="footer-content last-content">
-                                <div class="footer-head">
-                                    <h4>Information</h4> 
-                                    <div class="footer-contacts">
-										<p><span>Tel :</span> +0890-564-5644</p>
-										<p><span>Email :</span> info@trioxtrade4.com</p>
-										<p><span>Location :</span>42 York Road, West London, United Kingdom,W60 9CD</p>
-									</div> 
-                                    <div class="footer-icons">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <img src="img/icon/wu.png" alt="">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img src="img/icon/mg.png" alt="">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img src="img/icon/eth.png" alt="">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img src="img/icon/cashapp.png" alt="">
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img src="img/icon/bch.png" alt="">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                     
-                                    <br>
-                                    <div id="google_translate_element"></div>
-                                    <script>
-                                        function googleTranslateElementInit() {
-                                            new google.translate.TranslateElement({
-                                                    pageLanguage: 'en'
-                                                },
-                                                'google_translate_element'
-                                            );
-                                        }
-                                    </script>
-                                    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                                 </div>
                             </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col col--sm-10 col--md-8 col--lg-5 col--xl-4">
+                    <div class="__item">
+                        <h4 class="__title">Payment Options</h4>
+
+                        <div class="__item">
+                            <img src="img/Payement.png" alt="">
                         </div>
+                        <div id="google_translate_element"></div>
                     </div>
                 </div>
             </div>
-            <div class="footer-area-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="copyright">
-                                <p>
-                                    Copyright © 2020
-                                    <a href="#">Trioxtrade</a> All Rights Reserved
-                                </p>
-                            </div>
-                        </div>
+
+            <div class="row row--xs-middle row--lg-between">
+                <div class="col col--sm-10 col--md-8 col--lg-4">
+                </div>
+
+                <div class="col col--sm-10 col--md-8 col--lg-6  text--lg-right">
+                    <div class="__item">
+                        <span class="__copy">© 2020, AceTrade Group | <a href="#">Privacy Policy</a></span>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- End Footer area -->
-		
-		<!-- all js here -->
+        </div>
+    </footer>
+    <!-- end footer -->
 
-		<!-- jquery latest version -->
-		<script src="js/vendor/jquery-1.12.4.min.js"></script>
-		<!-- bootstrap js -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- owl.carousel js -->
-		<script src="js/owl.carousel.min.js"></script>
-		  <!-- stellar js -->
-        <script src="js/jquery.stellar.min.js"></script>
-		<!-- magnific js -->
-        <script src="js/magnific.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <!-- meanmenu js -->
-        <script src="js/jquery.meanmenu.js"></script>
-		<!-- Form validator js -->
-		<script src="js/form-validator.min.js"></script>
-		<!-- plugins js -->
-		<script src="js/plugins.js"></script>
-		<!-- main js -->
-		<script src="js/main.js"></script>
-	</body>
+    <div id="btn-to-top-wrap">
+        <a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+    </div>
 
-<!-- Mirrored from rockstheme.com/rocks/Trioxtrade-live/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2020 08:44:47 GMT -->
-</html>
+
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')
+    </script>
+    <script src="js/translate.js"></script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+</body></html>
